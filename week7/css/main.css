@@ -75,16 +75,51 @@ padding: 1em;
 /* viewport based units */
 /* width: 100vw; */
 width: 50%;
+/* position relative */
+position: relative;
+padding: 1em 1em 4em 1em;
+}
+
+/* absolute position */
+
+.blue-link.large-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
 }
 
 .blue-link {
     background-color: darkslategray;
     color: antiquewhite;
     text-decoration: none;
+    /* em = 1.5xfont size */
+    padding: 1.5em;
+    width: 300px;
+    display: block;
+
 }
 
 .large-text {
     font-size: 24px;
+}
+
+/* example of float layout */
+article, aside {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding:  1.5em;
+    box-sizing: border-box;
+    float: left;
+}
+
+aside {
+    width: 20%;
+
+}
+
+section {
+    clear: both;
 }
 
 .white-text {
@@ -121,6 +156,16 @@ h3~p {
     border: 8px solid darkslategray;
 }
 
+/* fixed navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+
 /* making psuedo classes */
 /* styling the navigation */
 nav ul a, 
@@ -137,7 +182,7 @@ nav ul a:focus {
 }
 
 nav ul a:active {
-    box-shadow: 0px 0px 4 px 2px black;
+    box-shadow: 0 0 4 px 2px black;
 }
 
 /* position selecters */
