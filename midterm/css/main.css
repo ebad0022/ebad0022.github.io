@@ -1,13 +1,16 @@
+/* background of page */
 html {
     background-color: #aad4cf;
     font-family: sans-serif;
 }
 
+/* body of page */
 body {
     margin: auto;
     width: 1000px;
 }
 
+/* background of content behind info */
 .wrapper {
     background-color: #d4eae9;
     margin: 0 auto;
@@ -17,6 +20,7 @@ body {
     padding-bottom: 10px;
 }
 
+/* title of page */
 h1 {
     position: absolute;
     color: white;
@@ -27,6 +31,7 @@ h1 {
 
 }
 
+/* long image at the top of page */
 header img {
     display: inline;
     width: 900px;
@@ -34,11 +39,12 @@ header img {
     margin-left: auto;
     margin-right: auto;
 }
-
+/* title within page - not main title */
 h2 {
     font-weight: 50;
 }
 
+/* navigation box */
 nav ul li {
     margin: 0;
     display: inline;
@@ -50,11 +56,13 @@ nav ul li {
     text-decoration: none;
 }
 
+/* lines beside nav links on top of the page */
 .vertical_line {
     border-right: solid;
     border-left: solid;
 }
 
+/* small starfish photo on left side of page */
 .body_image {
     float: left;
     width: 25%;
@@ -63,6 +71,7 @@ nav ul li {
     padding: 5px;
 }
 
+/* form at bottom of page */
 .form {
     border: solid;
     width: 100%;
@@ -70,12 +79,13 @@ nav ul li {
     margin: 8px 0;
     box-sizing: border-box;
 }
-
+/* form space between starfish into and bottom of page */
 .form_spacing {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
+/* buttons on page */
 button {
     border: 1px solid;
     text-align: right;
@@ -83,7 +93,7 @@ button {
     text-transform: uppercase;
     padding: 0.5rem;
 }
-
+/* copyright footer */
 footer {
     text-align: right;
     padding-top: 12px;
