@@ -145,7 +145,7 @@ p {
     .mobile-logo {
         display: none;
     }
-    desktop-logo {
+    .desktop-logo {
         display: inline-block;
         max-width: 300px;
     }
